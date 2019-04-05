@@ -1,23 +1,16 @@
 
 /**
- * Write a description of class Tutor here.
+ * Abstract class User - write a description of the class here
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (your name here)
+ * @version (version number or date here)
  */
-public class Tutor extends User
+public abstract class User
 {
     // instance variables - replace the example below with your own
-    private String email;
-
-    /**
-     * Constructor for objects of class Tutor
-     */
-    public Tutor()
-    {
-        // initialise instance variables
-        x = 0;
-    }
+    private String id;
+    private Name name;
+    private String gender;
 
     /**
      * An example of a method - replace this comment with your own

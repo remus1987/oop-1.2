@@ -5,10 +5,11 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Student
+public class Student extends User
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private String ccode;
+    private String ptutor;
 
     /**
      * Constructor for objects of class Student
